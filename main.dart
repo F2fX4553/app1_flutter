@@ -33,13 +33,14 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               Container(
+                margin: EdgeInsets.symmetric(horizontal: 50),
+                padding: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
                 color: Color.fromARGB(
                   86,
                   101,
                   115,
                   6,
                 ),
-                margin: EdgeInsets.all(50),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
@@ -54,7 +55,7 @@ class MyApp extends StatelessWidget {
                     Text(
                       "f2fx@gmail.com",
                       style: TextStyle(
-                        color: Colors.black,
+                        color: Colors.white,
                         fontSize: 30,
                         fontWeight: FontWeight.bold,
                         fontFamily: 'IndieFlower',
